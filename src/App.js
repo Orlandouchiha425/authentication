@@ -1,23 +1,13 @@
-import logo from './logo.svg';
 import './App.css';
-
+import { getUser } from './utilities/users-service';
+import { useState } from 'react';
+import SignUpForm from './SignUpForm/SignUpForm';
 function App() {
+  const [user,setUser] = useState(getUser())
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+  <SignUpForm setUser={setUser} user={user}/>
     </div>
   );
 }
