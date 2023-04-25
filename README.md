@@ -3,8 +3,9 @@
 The purpose of this package is to initiate the sign up and login authentication
 You can then modify as you wish, add CSS etc. I will be adding CSS in the near future. 
 This uses  jsonwebtoken, morgan, MongoDB, Express.js, React.js , Node.js
+start by creating your own folder within the terminal.then run npm installation package
 ### Version 1:
-First Push 
+First Push v 0.01
 ## Available Scripts
 
 In the project directory, you can run:
@@ -47,4 +48,4 @@ https://orlandouchiha425.github.io/portfolio-rebuilt/
 
 
 ### Installing package
-`mern-authentication-only`
+`npm install mern-authentication-only`

@@ -1,6 +1,9 @@
-import { useState } from "react"
-import { signUp } from "../../utilities/users-service"
-import { useNavigate,Link } from "react-router-dom";
+// import { Component } from "react";
+import { useState } from "react";
+import { signUp } from '../../utilities/users-service';
+import { useNavigate } from "react-router-dom";
+import styles from "./SignUpForm.module.css";
+import { Link } from "react-router-dom";
 
 export default function SignUpForm({ setUser, user }) {
   const [state, setState] = useState({
@@ -31,7 +34,7 @@ export default function SignUpForm({ setUser, user }) {
 
       const newUser = await signUp(formData);
       setUser(newUser);
-      navigate("/home");
+      navigate("/");
       // const user=await SignUp(formData)
     } catch (err) {
       console.log(err);
@@ -39,23 +42,23 @@ export default function SignUpForm({ setUser, user }) {
     }
   };
 
-    
-    const disable = state.password !== state.confirm;
-    return (
-      <div>
-      
-      <div >
+  const disable = state.password !== state.confirm;
+
+  return (
+    <div>
+      <style>{"body { background: linear-gradient(#141e30, #243b55)}"}</style>
+      <div className={styles.loginbox}>
         <h2>SignUp</h2>
         <h5>
-          Need to Login ?
+          Need to Login ?{" "}
           <Link className="nav-link active" to="/login">
             <button>
               <em>Click Here</em>
-            </button>
+            </button>{" "}
           </Link>
         </h5>
         <form autoComplete="off" onSubmit={handleSubmit}>
-          <div >
+          <div className={styles.userbox}>
             <input
               type="text"
               name="name"
@@ -66,7 +69,7 @@ export default function SignUpForm({ setUser, user }) {
             <label>Name</label>
           </div>
 
-          <div >
+          <div className={styles.userbox}>
             <input
               type="email"
               name="email"
@@ -77,7 +80,7 @@ export default function SignUpForm({ setUser, user }) {
             <label>Email</label>
           </div>
 
-          <div >
+          <div className={styles.userbox}>
             <input
               type="password"
               name="password"
@@ -88,7 +91,7 @@ export default function SignUpForm({ setUser, user }) {
             <label>Password</label>
           </div>
 
-          <div >
+          <div className={styles.userbox}>
             <input
               type="password"
               name="confirm"
@@ -113,7 +116,7 @@ export default function SignUpForm({ setUser, user }) {
         &nbsp;{state.error} <style>{"body { background: color)}"}</style>
       </p>
     </div>
-  
-    );
-    
+  );
 }
+
+
