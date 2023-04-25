@@ -1,7 +1,7 @@
 # Description:
 
 The purpose of this package is to initiate the sign up and login authentication
-You can then modify as you wish, add CSS etc. will be adding CSS in the near future. 
+You can then modify as you wish, add CSS etc. I will be adding CSS in the near future. 
 This uses  jsonwebtoken, morgan, MongoDB, Express.js, React.js , Node.js
 ### Version 1:
 First Push 
@@ -38,32 +38,13 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 MONGO_URI=mongodb+srv:/************
 SECRET=helloTest
 
-## Learn More
+### important links
+https://github.com/Orlandouchiha425/chatter.git
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+https://github.com/Orlandouchiha425?tab=repositories
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+https://orlandouchiha425.github.io/portfolio-rebuilt/
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Installing package
+`mern-authentication-only`
