@@ -1,6 +1,7 @@
 {
   "proxy": "http://localhost:3001",
-  "name": "chatter",
+  "name": "mern-authentication",
+  "description": "Full authentication, using jsonwebtoken,bcrypt,mongoDB",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -28,6 +29,16 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
+  "keywords": [
+    "jsonwebtoken",
+    "react-authentication",
+    "mongoDB",
+    "login",
+    "sign up",
+    "react.js",
+    "components"
+   
+  ],
   "eslintConfig": {
     "extends": [
       "react-app",
