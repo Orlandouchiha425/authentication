@@ -50,11 +50,11 @@ export default function SignUpForm({ setUser, user }) {
       <div className={styles.loginbox}>
         <h2>SignUp</h2>
         <h5>
-          Need to Login ?{" "}
+          Need to Login ?
           <Link className="nav-link active" to="/login">
             <button>
               <em>Click Here</em>
-            </button>{" "}
+            </button>
           </Link>
         </h5>
         <form autoComplete="off" onSubmit={handleSubmit}>
