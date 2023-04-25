@@ -3,6 +3,12 @@
   "name": "mern-authentication-only",
   "description": "Full authentication, using jsonwebtoken,bcrypt,mongoDB",
   "version": "0.1.0",
+  "license": "MIT",
+  "repository": "https://github.com/Orlandouchiha425/chatter",
+  "author":"Orlando Valadez Salas",
+  
+
+
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
