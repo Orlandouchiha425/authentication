@@ -49,3 +49,33 @@ https://orlandouchiha425.github.io/portfolio-rebuilt/
 
 ### Installing package
 `npm install mern-authentication-only`
+
+
+### Usage
+import { SignUpForm } from 'mern-authentication-only';
+function signup() {
+
+  return (
+    <div >
+      <SignUpForm />
+    </div>
+  );
+}
+
+ ###  Usage 2
+
+import { LoginForm } from 'mern-authentication-only';
+function Login() {
+
+  return (
+    <div >
+      <LoginForm />
+    </div>
+  );
+}
+
+### Screenshot
+![Sign up](../chatter/src/Images/SignUp.png)
+
+![Login ](../chatter/src/Images/Login.png)
+
