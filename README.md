@@ -52,6 +52,7 @@ https://orlandouchiha425.github.io/portfolio-rebuilt/
 
 
 ### Usage
+```jsx
 import { SignUpForm } from 'mern-authentication-only';
 function signup() {
 
@@ -61,9 +62,9 @@ function signup() {
     </div>
   );
 }
-
- ###  Usage 2
-
+```
+**Example Usage**
+```jsx
 import { LoginForm } from 'mern-authentication-only';
 function Login() {
 
@@ -73,9 +74,8 @@ function Login() {
     </div>
   );
 }
-
+```
 ### Screenshot
-![Sign up](../chatter/src/Images/SignUp.png)
+[Imgur](https://i.imgur.com/G2ie5NY.png)
 
-![Login ](../chatter/src/Images/Login.png)
-
+[Imgur](https://i.imgur.com/rYOJjlD.png)
