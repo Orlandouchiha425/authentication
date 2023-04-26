@@ -76,6 +76,6 @@ function Login() {
 }
 ```
 ### Screenshot
-[Imgur](https://i.imgur.com/G2ie5NY.png)
+![SignUp](https://i.imgur.com/rYOJjlD.png)
 
-[Imgur](https://i.imgur.com/rYOJjlD.png)
+![Login](https://i.imgur.com/G2ie5NY.png)
